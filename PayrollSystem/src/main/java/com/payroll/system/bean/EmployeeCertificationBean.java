@@ -1,4 +1,4 @@
-package com.payroll.system.controller;
+package com.payroll.system.bean;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -16,13 +16,12 @@ class EmployeeCertificationBean{
 	@Id
     @GeneratedValue(strategy= GenerationType.AUTO)
 	private Long employeeCertification_Id;
-//	/*
-//	 * @OneToOne(cascade = CascadeType.ALL)
-//	 * 
-//	 * @JoinColumn(name = "personal_Id", referencedColumnName =
-//	 * "employeeCertification_Id") private EmployeePersonalInfoBean
-//	 * employeePersonalInfoBean;
-//	 */
+	
+	  @OneToOne(cascade = CascadeType.ALL)
+	  
+	  @JoinColumn(name = "personal_Id", referencedColumnName ="employeeCertification_Id") 
+	  private EmployeePersonalInfoBean employeePersonalInfoBean;
+	 
 	
 	private String certification_Type;
 	private String certification_Id;

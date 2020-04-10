@@ -1,4 +1,4 @@
-package com.payroll.system.controller;
+package com.payroll.system.bean;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
