@@ -1,0 +1,35 @@
+.bs-component {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    width: 740px;
+    top: 13px;
+    position: relative;
+}
+.tabbable-panel {
+    padding: 0px;
+}
+.tabbable-line>.nav-tabs {
+    border: none;
+    margin: 0px;
+}
+.tabbable-line>.nav-tabs>li.active {
+    border-bottom: 2px solid #0093FF;
+    position: relative;
+}
+.tabbable-line>.nav-tabs>li {
+    margin-right: 2px;
+}
+.tabbable-line>.nav-tabs>li.active>a {
+    border: 0;
+    color: #4A4A4A;
+    font-family: "open sans";
+    font-weight: bold;
+    font-size: 13px;
+}
+.tabbable-line>.nav-tabs>li>a {
+    margin-right: 0;
+    padding-bottom: 2px;
+}
+fieldset{
+	margin-bottom:0px !important;
+}
