@@ -40,14 +40,14 @@
 									<div class="col-sm-6">
 										<div class="form-group">
 											<label for="empPersonal_surName">SURNAME:</label> <input
-												type="text" class="form-control" id="empPersonal_surName"
+												type="text" value="Miss" class="form-control" id="empPersonal_surName"
 												placeholder="" name="empPersonal_surName">
 										</div>
 									</div>
 									<div class="col-sm-6">
 										<div class="form-group">
 											<label for="empPersonal_firstName">FIRST NAME:</label> <input
-												type="text" class="form-control" id="empPersonal_firstName"
+												type="text" value="Preeti" class="form-control" id="empPersonal_firstName"
 												placeholder="" name="empPersonal_firstName">
 										</div>
 									</div>
@@ -58,7 +58,7 @@
 									<div class="col-sm-6">
 										<div class="form-group">
 											<label for="empPersonal_lastName">Last Name:</label> <input
-												type="text" class="form-control" id="empPersonal_lastName"
+												type="text" value="Rani" class="form-control" id="empPersonal_lastName"
 												placeholder="Enter Name" name="empPersonal_lastName">
 										</div>
 									</div>
@@ -66,7 +66,7 @@
 										<div class="form-group">
 											<label for="empPersonal_fatherName">FATHER'S NAME:</label> <input
 												type="text" class="form-control" id="empPersonal_fatherName"
-												placeholder="" name="empPersonal_fatherName">
+												placeholder="" value="Sudesh" name="empPersonal_fatherName">
 										</div>
 									</div>
 								</div>
@@ -230,7 +230,7 @@
 											<div class="col-lg-12 no-padding">
 												<div class="form-group">
 													<label for="currentAdd_addressLine1">Address Line
-														1:</label> <input type="text" class="form-control"
+														1:</label> <input type="text" value="Free hold" class="form-control"
 														id="currentAdd_addressLine1" placeholder=""
 														name="currentAdd_addressLine1">
 												</div>
@@ -238,7 +238,7 @@
 											<div class="col-lg-12 no-padding">
 												<div class="form-group">
 													<label for="currentAdd_addressLine2">Address Line
-														2:</label> <input type="text" class="form-control"
+														2:</label> <input type="text" value="sanjay" class="form-control"
 														id="currentAdd_addressLine2" placeholder=""
 														name="currentAdd_addressLine2">
 												</div>
@@ -320,7 +320,7 @@
 											<div class="col-lg-12 no-padding">
 												<div class="form-group">
 													<label for="permanentAdd_addressLine1">Address Line
-														1:</label> <input type="text" class="form-control"
+														1:</label> <input type="text" value="T square" class="form-control"
 														id="permanentAdd_addressLine1" placeholder=""
 														name="permanentAdd_addressLine1">
 												</div>
@@ -384,7 +384,7 @@
 									<div class="col-sm-6">
 										<div class="form-group">
 											<label for="empwork_empId">Employee ID:</label> <input
-												type="text" class="form-control" id="empwork_empId"
+												type="text" class="form-control" value="123" id="empwork_empId"
 												placeholder="" name="empwork_empId">
 										</div>
 									</div>

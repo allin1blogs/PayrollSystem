@@ -9,12 +9,12 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "employeepersonalinfo")
+@Table(name = "empPersonalinfo")
 public class EmployeePersonalInfoBean {
 
 	@Id
 	@Column(name = "empPersonal_id" , nullable = false, unique = true)
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @GeneratedValue(strategy= GenerationType.AUTO)
 	private Long empPersonal_id;
 	
 	private String empPersonal_surName;
@@ -22,6 +22,10 @@ public class EmployeePersonalInfoBean {
 	private String empPersonal_lastName;
 	private String empPersonal_fatherName;
 	private String empPersonal_age;
+	private String empPersonal_emailId1;
+	private String empPersonal_emailId2;
+	private String empPersonal_phone1;
+	private String empPersonal_phone2;
 	private String empPersonal_height;
 	private String empPersonal_weight;
 	private String empPersonal_nationality;
@@ -184,6 +188,38 @@ public class EmployeePersonalInfoBean {
 
 	public void setEmployeeWorkBean(EmployeeWorkBean employeeWorkBean) {
 		this.employeeWorkBean = employeeWorkBean;
+	}
+
+	public String getEmpPersonal_emailId1() {
+		return empPersonal_emailId1;
+	}
+
+	public void setEmpPersonal_emailId1(String empPersonal_emailId1) {
+		this.empPersonal_emailId1 = empPersonal_emailId1;
+	}
+
+	public String getEmpPersonal_emailId2() {
+		return empPersonal_emailId2;
+	}
+
+	public void setEmpPersonal_emailId2(String empPersonal_emailId2) {
+		this.empPersonal_emailId2 = empPersonal_emailId2;
+	}
+
+	public String getEmpPersonal_phone1() {
+		return empPersonal_phone1;
+	}
+
+	public void setEmpPersonal_phone1(String empPersonal_phone1) {
+		this.empPersonal_phone1 = empPersonal_phone1;
+	}
+
+	public String getEmpPersonal_phone2() {
+		return empPersonal_phone2;
+	}
+
+	public void setEmpPersonal_phone2(String empPersonal_phone2) {
+		this.empPersonal_phone2 = empPersonal_phone2;
 	}
 	
 		
